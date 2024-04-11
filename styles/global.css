@@ -1,0 +1,26 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --co-text: #EDF1F7;
+  --co-red: #c51212;
+  --co-blue: #0041c2;
+  --co-green: #14b02d;
+  --co-yellow: #ffc12b;
+}
+
+body, nutton, a {
+  color: var(--co-text);
+  font: 400 1rem 'Mukta', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+button:hover {
+  cursor: pointer;
+}
