@@ -143,7 +143,7 @@ main {
   column-gap: 32px;
 }
 
-.main__info div a, .main__info div button {
+.trailerbtn, .ticketbtn {
   width: 100%;
   padding: 10px 0;
   border-radius: 3px;
@@ -157,12 +157,11 @@ main {
   transform: skew(-10deg);
 }
 
-.main__info div a {
+.trailerbtn {
   background: var(--co-red);
 }
 
-.main__info div button {
+.ticketbtn {
   background: transparent;
   border: 1px solid var(--co-green);
-  color: var(--co-font);
 }
